@@ -31,7 +31,7 @@ def add_acc():
         f.close()
         after_login()
 
-
+#modify account
 
 def modify_acc():
     acc_no = input("Enter Account number : ")
@@ -147,7 +147,7 @@ def withdraw_money():
         dt.remove_money(amount,acc)
     print("Amount withdrawed successfully")
     after_login()
-
+# account holder list
 def display():
     x = PrettyTable()
     x.field_names = ["Account number","Name","Address","Phone number","Amount"]
