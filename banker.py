@@ -13,7 +13,7 @@ def main_function():
         print("Sorry! Invalid Password or User name")
         main_function()
     
-    
+    # create account
 def add_acc():
     acc_name=input("Enter the Account holder name : ")
     acc_no = input("Enter the Account number : ")
@@ -94,7 +94,7 @@ def after_login():
     else:
         print("Invalid choice!")
         after_login()
-    
+    # delete account
                 
 def del_acc():
     acc_no = input("Enter Account number : ")
