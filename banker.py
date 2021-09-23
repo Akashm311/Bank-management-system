@@ -123,7 +123,7 @@ def del_acc():
         file.write(book)
         file.close()
         after_login()
-
+# deposit money 
 def deposit_money():
     acc=input("Enter the account number to deposit money: " )
     res= dt.get_acc_by_no(acc)
@@ -135,7 +135,7 @@ def deposit_money():
         dt.add_money(amount,acc)
     print("Amount deposited successfully")
     after_login()
-
+# withdraw money
 def withdraw_money():
     acc=input("Enter the account number to withdraw money: " )
     res= dt.get_acc_by_no(acc)
